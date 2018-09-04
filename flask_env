@@ -1,0 +1,12 @@
+// Setting up flask and the environment
+
+1 - Install virtual environment (pip install virtualenv)
+2 - Create a virtual environment in the API folder CMD: virtualenv env
+3 - Activate the virtual environment. Navigate to "cd env/Scripts" and type "activate"
+4- Go back to the original environment, and install Flask with "pip install flask"
+5- Check if it is properly setup. Go to python: from flask import Flask
+
+// Create the directory section of Flask
+1 - Create the static directory CMD: mkdir static
+2 - Create the templates directory CMD: mkdir templates
+3 - Create the images directory CMD: mkdir images
